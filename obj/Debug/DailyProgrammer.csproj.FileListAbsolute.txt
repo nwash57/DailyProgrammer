@@ -1,0 +1,5 @@
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyPogrammer\DailyPogrammer\bin\Debug\DailyProgrammer.exe.config
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyPogrammer\DailyPogrammer\bin\Debug\DailyProgrammer.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyPogrammer\DailyPogrammer\bin\Debug\DailyProgrammer.pdb
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyPogrammer\DailyPogrammer\obj\Debug\DailyProgrammer.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyPogrammer\DailyPogrammer\obj\Debug\DailyProgrammer.pdb
