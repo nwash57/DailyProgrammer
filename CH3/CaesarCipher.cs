@@ -13,7 +13,7 @@ namespace DailyProgrammer.Easy.CH3
         public static string decipheredInput, ciphered, userName;
         
 
-        public static void notMain(String[] args)
+        public static void Main(String[] args)
         {
             userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             userName = userName.Substring(userName.IndexOf('\\'));
@@ -174,7 +174,7 @@ namespace DailyProgrammer.Easy.CH3
             if (input.Equals("y"))
             {
                 ioStyle = 0;
-                notMain(null);
+                Main(null);
             }
             else System.Environment.Exit(1);
         }
