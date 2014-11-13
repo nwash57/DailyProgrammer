@@ -3,3 +3,9 @@ C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgr
 C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\CH2\bin\Debug\CH2.pdb
 C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\CH2\obj\Debug\CH2.exe
 C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\CH2\obj\Debug\CH2.pdb
+H:\APCS\DailyProgrammer\CH2\bin\Debug\CH2.exe.config
+H:\APCS\DailyProgrammer\CH2\bin\Debug\CH2.exe
+H:\APCS\DailyProgrammer\CH2\bin\Debug\CH2.pdb
+H:\APCS\DailyProgrammer\CH2\obj\Debug\CH2.csprojResolveAssemblyReference.cache
+H:\APCS\DailyProgrammer\CH2\obj\Debug\CH2.exe
+H:\APCS\DailyProgrammer\CH2\obj\Debug\CH2.pdb

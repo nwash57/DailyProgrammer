@@ -1,0 +1,8 @@
+H:\APCS\DailyProgrammer\CH4\bin\Debug\CH4.exe.config
+H:\APCS\DailyProgrammer\CH4\obj\Debug\CH4.csprojResolveAssemblyReference.cache
+H:\APCS\DailyProgrammer\CH4\obj\Debug\CH4.csproj.GenerateResource.Cache
+H:\APCS\DailyProgrammer\CH4\bin\Debug\CH4.exe
+H:\APCS\DailyProgrammer\CH4\bin\Debug\CH4.pdb
+H:\APCS\DailyProgrammer\CH4\obj\Debug\DailyProgrammer.CH4.Challenge4Form.resources
+H:\APCS\DailyProgrammer\CH4\obj\Debug\CH4.exe
+H:\APCS\DailyProgrammer\CH4\obj\Debug\CH4.pdb
