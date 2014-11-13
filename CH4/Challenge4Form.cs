@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DailyProgrammer.CH4
+namespace CH4
 {
     public partial class Challenge4Form : Form
     {

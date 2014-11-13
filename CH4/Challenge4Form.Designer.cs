@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace DailyProgrammer.CH4
+namespace CH4
 {
     partial class Challenge4Form
     {

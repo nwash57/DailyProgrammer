@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DailyProgrammer.CH2
+namespace CH2
 {
     class Calculator
     {

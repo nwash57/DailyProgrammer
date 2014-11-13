@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace DailyProgrammer.CH3
+namespace CH3
 {
     class CaesarCipher
     {
