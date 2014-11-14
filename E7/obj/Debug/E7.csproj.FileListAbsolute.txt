@@ -1,0 +1,6 @@
+H:\APCS\DailyProgrammer\E7\bin\Debug\E7.exe.config
+H:\APCS\DailyProgrammer\E7\bin\Debug\E7.exe
+H:\APCS\DailyProgrammer\E7\bin\Debug\E7.pdb
+H:\APCS\DailyProgrammer\E7\obj\Debug\E7.csprojResolveAssemblyReference.cache
+H:\APCS\DailyProgrammer\E7\obj\Debug\E7.exe
+H:\APCS\DailyProgrammer\E7\obj\Debug\E7.pdb
