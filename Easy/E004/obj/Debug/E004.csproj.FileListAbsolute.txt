@@ -1,0 +1,8 @@
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E4\obj\Debug\E004.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E4\obj\Debug\E004.Challenge4Form.resources
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E4\obj\Debug\E004.csproj.GenerateResource.Cache
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E4\bin\Debug\E004.exe.config
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E4\bin\Debug\E004.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E4\bin\Debug\E004.pdb
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E4\obj\Debug\E004.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E4\obj\Debug\E004.pdb

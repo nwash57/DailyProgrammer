@@ -1,0 +1,6 @@
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E9\bin\Debug\E9.exe.config
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E9\bin\Debug\E9.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E9\bin\Debug\E9.pdb
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E9\obj\Debug\E9.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E9\obj\Debug\E9.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E9\obj\Debug\E9.pdb
