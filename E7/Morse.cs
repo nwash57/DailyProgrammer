@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,8 +11,11 @@ namespace E7
     {
         public static void Main(string[] args)
         {
+
+
             int input;
-            Console.WriteLine("1: Convert alphabetic to morse\n2: Convert morse to alphabetic");
+            string sinput;
+            Console.WriteLine("1: Convert alphabetic to morse\n2: Convert morse to alphabetic\n3: Beep My Morse");
             input = Convert.ToInt32(Console.ReadLine());
 
             switch (input)
@@ -21,7 +25,13 @@ namespace E7
                     Again();
                     break;
                 case 2:
-                    ToAlphabetic();
+                    Console.WriteLine(ToAlphabetic());
+                    Again();
+                    break;
+                case 3:
+                    Console.WriteLine("Enter the morse you would like beeped");
+                    sinput = Console.ReadLine();
+                    BeepMyMorse(sinput);
                     Again();
                     break;
             }
@@ -34,7 +44,7 @@ namespace E7
             StringBuilder sb = new StringBuilder();
 
             Console.WriteLine("Input the string you would like converted to Morse Code.");
-            input = Console.ReadLine();
+            input = Console.ReadLine().ToLower();
             ca = input.ToCharArray();
 
             for (int i = 0; i < ca.Length; i++)
@@ -44,9 +54,69 @@ namespace E7
             return sb.ToString();
         }
 
-        public static void ToAlphabetic()
+        public static string ToAlphabetic()
         {
+            string input;
+            int currIndex = 0;
+            int nextIndex;
 
+            List<string> morseList = new List<string>();
+            StringBuilder sb = new StringBuilder();
+
+            Console.WriteLine("Input the Morse code you would like converted to real words.");
+            input = Console.ReadLine() + " ";
+
+            while (input.Length > 0)
+            {
+                nextIndex = input.IndexOf(' ') + 1;
+
+                morseList.Add(input.Substring(currIndex, nextIndex));
+                input = input.Remove(currIndex, nextIndex - currIndex);
+            }
+
+            for (int i = 0; i < morseList.Count; i++)
+            {
+                sb.Append(ConvertMorse(morseList[i]));
+            }
+            return sb.ToString();
+        }
+
+        public static void BeepMyMorse(string morse)
+        {
+            char[] ca = morse.ToCharArray();
+
+            SoundPlayer dot = new SoundPlayer(Properties.Resources.dot);
+            SoundPlayer line = new SoundPlayer(Properties.Resources.line);
+
+            for (int i = 0; i < ca.Length; i++)
+            {
+                if (ca[i].Equals('.'))
+                {
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Console.Clear();
+                    dot.Play();
+                    System.Threading.Thread.Sleep(500);
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.Clear();
+                    System.Threading.Thread.Sleep(500);
+                }
+
+                else if (ca[i].Equals('-'))
+                {
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Console.Clear();
+                    line.Play();
+                    System.Threading.Thread.Sleep(1500);
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.Clear();
+                    System.Threading.Thread.Sleep(500);
+                }
+
+                else if (ca[i].Equals(' ') || ca[i].Equals('/'))
+                {
+                    System.Threading.Thread.Sleep(1000);
+                }
+            }
         }
 
         public static string ConvertChar(char c)
@@ -191,6 +261,127 @@ namespace E7
                     break;
                 case ' ':
                     output = "/ ";
+                    break;
+            }
+            return output;
+        }
+
+        public static string ConvertMorse(string s)
+        {
+            string output = "";
+
+            switch (s)
+            {
+                case ".- ":
+                    output = "a";
+                    break;
+                case "-... ":
+                    output = "b";
+                    break;
+                case "-.-. ":
+                    output = "c";
+                    break;
+                case "-.. ":
+                    output = "d";
+                    break;
+                case ". ":
+                    output = "e";
+                    break;
+                case "..-. ":
+                    output = "f";
+                    break;
+                case "--. ":
+                    output = "g";
+                    break;
+                case ".... ":
+                    output = "h";
+                    break;
+                case ".. ":
+                    output = "i";
+                    break;
+                case ".--- ":
+                    output = "j";
+                    break;
+                case "-.- ":
+                    output = "k";
+                    break;
+                case ".-.. ":
+                    output = "l";
+                    break;
+                case "-- ":
+                    output = "m";
+                    break;
+                case "-. ":
+                    output = "n";
+                    break;
+                case "--- ":
+                    output = "o";
+                    break;
+                case ".--. ":
+                    output = "p";
+                    break;
+                case "--.- ":
+                    output = "q";
+                    break;
+                case ".-. ":
+                    output = "r";
+                    break;
+                case "... ":
+                    output = "s";
+                    break;
+                case "- ":
+                    output = "t";
+                    break;
+                case "..- ":
+                    output = "u";
+                    break;
+                case "...- ":
+                    output = "v";
+                    break;
+                case ".-- ":
+                    output = "w";
+                    break;
+                case "-..- ":
+                    output = "x";
+                    break;
+                case "-.-- ":
+                    output = "y";
+                    break;
+                case "--.. ":
+                    output = "z";
+                    break;
+                case ".---- ":
+                    output = "1";
+                    break;
+                case "..--- ":
+                    output = "2";
+                    break;
+                case "...-- ":
+                    output = "3";
+                    break;
+                case "....- ":
+                    output = "4";
+                    break;
+                case "..... ":
+                    output = "5";
+                    break;
+                case "-.... ":
+                    output = "6";
+                    break;
+                case "--... ":
+                    output = "7";
+                    break;
+                case "---.. ":
+                    output = "8";
+                    break;
+                case "----. ":
+                    output = "9";
+                    break;
+                case "----- ":
+                    output = "0";
+                    break;
+                case "/ ":
+                    output = " ";
                     break;
             }
             return output;

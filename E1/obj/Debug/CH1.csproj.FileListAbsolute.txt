@@ -1,0 +1,5 @@
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\CH1\bin\Debug\CH1.exe.config
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\CH1\bin\Debug\CH1.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\CH1\bin\Debug\CH1.pdb
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\CH1\obj\Debug\CH1.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\CH1\obj\Debug\CH1.pdb
