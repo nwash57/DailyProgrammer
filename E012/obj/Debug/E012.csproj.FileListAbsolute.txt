@@ -1,0 +1,6 @@
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E012\bin\Debug\E012.exe.config
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E012\bin\Debug\E012.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E012\bin\Debug\E012.pdb
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E012\obj\Debug\E012.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E012\obj\Debug\E012.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E012\obj\Debug\E012.pdb
