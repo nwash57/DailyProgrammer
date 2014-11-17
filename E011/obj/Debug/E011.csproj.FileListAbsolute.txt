@@ -4,3 +4,4 @@ C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgr
 C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E011\bin\Debug\E011.pdb
 C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E011\obj\Debug\E011.exe
 C:\Users\Nathan\Documents\Visual Studio 2013\Projects\DailyProgrammer\DailyProgrammer\E011\obj\Debug\E011.pdb
+H:\APCS\DailyProgrammer\E011\bin\Debug\E011.exe.config

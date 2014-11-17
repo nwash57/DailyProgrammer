@@ -1,0 +1,6 @@
+H:\APCS\DailyProgrammer\E013\bin\Debug\E013.exe.config
+H:\APCS\DailyProgrammer\E013\bin\Debug\E013.exe
+H:\APCS\DailyProgrammer\E013\bin\Debug\E013.pdb
+H:\APCS\DailyProgrammer\E013\obj\Debug\E013.csprojResolveAssemblyReference.cache
+H:\APCS\DailyProgrammer\E013\obj\Debug\E013.exe
+H:\APCS\DailyProgrammer\E013\obj\Debug\E013.pdb
