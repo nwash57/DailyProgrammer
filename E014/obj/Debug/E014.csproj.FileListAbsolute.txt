@@ -1,0 +1,6 @@
+H:\APCS\DailyProgrammer\E014\bin\Debug\E014.exe.config
+H:\APCS\DailyProgrammer\E014\bin\Debug\E014.exe
+H:\APCS\DailyProgrammer\E014\bin\Debug\E014.pdb
+H:\APCS\DailyProgrammer\E014\obj\Debug\E014.exe
+H:\APCS\DailyProgrammer\E014\obj\Debug\E014.pdb
+H:\APCS\DailyProgrammer\E014\obj\Debug\E014.csprojResolveAssemblyReference.cache
